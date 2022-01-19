@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Application Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+        <div class="navbar">
+            <a href="index.html">
+                <div class="logo">
+                    <img src="Assets/Logo/hotbeansweblogo.png" alt="Company Logo">
+                </div>
+            </a>   
+        <div class="navlinks">
+            <a href="ContactUs.html">Contact Us</a>
+            <a href="Courses.html">Courses</a>
+            <a href="Apply.html">Apply</a>
+            <a href="OurTeam.html">Our Team</a>
+        </div>
+        </div>
+        <div class="teamhr">
+            <hr>
+        </div>
+            <div class="applicationformcontainer">
+                <div class="Applicationtitle">
+                    <h1>Application Form</h1>
+                </div>
+                <div class="applicationparagraph1">
+                    <p>Apply below to join our incredible team of employees striving to create quality websites for our clients</p>
+                </div>
+                <form class="applicationform" method="post" action="index.html">
+                    <ul>
+                        <li>
+                            <select id="jobrole" name="jobrole">
+                                <option value="Front-End Developer"> Front-End Developer</option>
+                                <option value="Back-End Developer"> Back-End Developer</option>
+                                <option value="Web Designer"> Web Designer</option>
+                            </select>
+                        </li>
+                        <li>
+                            <input type="text" id="forename" name="forename" placeholder="Forename"/>
+                        </li>
+                        <li>
+                            <input type="text" id="surname" name="surname" placeholder="Surname"/>
+                        </li>
+                        <li>
+                            <input type="email" id="email" name="email" placeholder="Email"/>
+                        </li>
+                        <li>
+                            <input type="text" id="dob" name="dateofbirth" placeholder="Date of Birth (dd/mm/yyyy)"/>
+                        </li>
+                        <li>
+                            <input type="text" id="address" name="address" placeholder="Address"/>
+                        </li>
+                        <li>
+                            <input type="text" id="postcode" name="postcode" placeholder="Postcode"/>
+                        </li>
+                        <li>
+                            <input type="tel" id="tel" name="phonenumber" placeholder="Phone Number"/>
+                        </li>
+                        <li>
+                            <label class="CVupload" for="CV">Upload CV</label>
+                            <input type="file" id="CV" name="CV"/>
+                        </li>
+                    </ul>
+                    <button type="submit" class="applicationbutton">Submit</button>
+                </form> 
+            </div>
+            <br>
+            <br>
+            
+            <div class="applicationfooter">
+                <hr>
+                <div class="footerlogo">
+                    <img class="footerlogo" src="Assets/Logo/hotbeansweb1.png" alt="Company Logo">
+                </div>
+                <div class="homehr">
+                <hr>
+                </div>
+                <div class="footerlinks">
+                <div class="footerlink1">
+                    <a style="text-decoration: none;" href="OurTeam.html">Our Team</a>            
+                </div>
+                <div class="footerlink2">
+                    <a style="text-decoration: none;" href="Courses.html">Courses</a>
+                </div>
+                <div class="footerlink3">
+                    <a style="text-decoration: none;" href="Apply.html">Apply</a>
+                </div>
+                <div class="footerlink4">
+                    <a style="text-decoration: none;" href="ContactUs.html">Contact Us</a>
+                </div>
+                <div class="socialmediaicons">
+                <div class="facebookicon">
+                    <a href="https://en-gb.facebook.com/"> <img style="height: 50px; width: 50px;" src="Assets/Images/facebookicon.png" alt="Facebook Icon"></a>
+                </div>
+                <div class="twittericon">
+                    <a href="https://twitter.com/?lang=en"><img style="height: 50px; width: 50px;" src="Assets/Images/twittericon.png" alt="Twitter Icon"></a>
+                </div>
+                <div class="linkedInicon">
+                    <a href="https://www.linkedin.com/feed/"><img style="height: 50px; width: 50px;" src="Assets/Images/linkedinicon.png" alt="LinkedIn Icon"></a>
+                </div>
+                </div>
+                <div class="copyright">
+                    HotBeansWeb &copy 2022
+            </div>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
